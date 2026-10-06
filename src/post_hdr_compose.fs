@@ -155,9 +155,9 @@ void main()
     float a = hdrValue.a;
 #if (VF_SHARP_ON == 1)
     // Visual Filters: unsharp mask on the HDR source (4 neighbours).
-    ivec2 p = ivec2(gl_FragCoord.xy);
-    vec3 n = texelFetch(PostSourceTexture, p + ivec2(1, 0), 0).rgb + texelFetch(PostSourceTexture, p - ivec2(1, 0), 0).rgb
-           + texelFetch(PostSourceTexture, p + ivec2(0, 1), 0).rgb + texelFetch(PostSourceTexture, p - ivec2(0, 1), 0).rgb;
+    ivec2 p = ivec2(gl_FragCoord.xy), pmax = textureSize(PostSourceTexture, 0) - 1;
+    vec3 n = texelFetch(PostSourceTexture, min(p + ivec2(1, 0), pmax), 0).rgb + texelFetch(PostSourceTexture, max(p - ivec2(1, 0), ivec2(0)), 0).rgb
+           + texelFetch(PostSourceTexture, min(p + ivec2(0, 1), pmax), 0).rgb + texelFetch(PostSourceTexture, max(p - ivec2(0, 1), ivec2(0)), 0).rgb;
     hdrValue.rgb = max(hdrValue.rgb * (1.0 + 4.0 * VF_SHARP) - VF_SHARP * n, 0.0);
 #endif
 
