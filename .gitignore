@@ -5,3 +5,6 @@ resp/
 .sello/
 .tgrep/
 __pycache__/
+docs/
+scripts/
+data/
