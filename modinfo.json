@@ -1,0 +1,30 @@
+{
+  "author": "Pablo & Claude",
+  "build": "124683",
+  "category": [
+    "titans",
+    "ui"
+  ],
+  "context": "client",
+  "date": "2026-10-06",
+  "description": "Color blindness correction (protanopia, deuteranopia, tritanopia), saturation, contrast, brightness, sharpness and vignette for the 3D view, in the VISUAL FILTERS settings tab. Changes apply after restarting the game; needs HDR on. Overrides the game shader post_hdr_compose.fs in memory (only when a filter is on): re-check after game patches. Translations are automatic (AI) and may contain errors.",
+  "display_name": "Visual Filters",
+  "forum": "https://github.com/pablohenriquez93k-glitch/pa-visual-filters/discussions/1",
+  "identifier": "com.pa.pabloandclaude.visualfilters",
+  "signature": " ",
+  "version": "1.0.0",
+  "scenes": {
+    "start": [
+      "coui://ui/mods/com.pa.pabloandclaude.visualfilters/plantilla.js",
+      "coui://ui/mods/com.pa.pabloandclaude.visualfilters/comun.js",
+      "coui://ui/mods/com.pa.pabloandclaude.visualfilters/montar.js"
+    ],
+    "settings": [
+      "coui://ui/mods/com.pa.pabloandclaude.visualfilters/plantilla.js",
+      "coui://ui/mods/com.pa.pabloandclaude.visualfilters/comun.js",
+      "coui://ui/mods/com.pa.pabloandclaude.visualfilters/idiomas.js",
+      "coui://ui/mods/com.pa.pabloandclaude.visualfilters/opciones.js"
+    ]
+  },
+  "icon": "https://raw.githubusercontent.com/pablohenriquez93k-glitch/pa-visual-filters/main/icon.png"
+}
