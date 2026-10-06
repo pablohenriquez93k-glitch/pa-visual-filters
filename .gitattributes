@@ -11,3 +11,11 @@ salida export-ignore
 herr export-ignore
 resp export-ignore
 data export-ignore
+scripts/** export-ignore
+docs/** export-ignore
+src/** export-ignore
+sonda/** export-ignore
+salida/** export-ignore
+herr/** export-ignore
+resp/** export-ignore
+data/** export-ignore
