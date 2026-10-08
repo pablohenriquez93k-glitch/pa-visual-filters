@@ -11,7 +11,7 @@ Adds image filters to the 3D view, applied right after the game's tone map:
 - **Saturation** (0–200 %), **contrast** (75–150 %), **brightness** (−20 to +20 %).
 - **Sharpness** and **vignette** (off, light, medium, strong).
 
-Everything is in the **VISUAL FILTERS** tab of Settings, with a reset button. With the default values the mod does nothing and the game is unchanged.
+Everything is in the **VISUAL FILTERS** tab of Settings, with a reset button and three presets (Quick color blindness, High contrast, Cinematic) that fill the options for you. A preset resets every option it does not set to its default; Quick color blindness keeps your correction type, or picks Deuteranopia if correction is off. With the default values the mod does nothing and the game is unchanged.
 
 ## Install
 Easiest: install **Visual Filters** from the in-game **Community Mods** index. Manual install: close the game and copy the contents of the downloaded package into `%LOCALAPPDATA%\Uber Entertainment\Planetary Annihilation\client_mods\com.pa.pabloandclaude.visualfilters\` so that `modinfo.json` sits directly inside that folder.

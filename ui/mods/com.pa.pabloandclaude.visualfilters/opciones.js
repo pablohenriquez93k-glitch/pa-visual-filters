@@ -25,6 +25,12 @@
         }
     };
     api.settings.definitions[G] = defs;
+    // Presets: defaults + these values. Color blindness type is kept (deuteranopia if off, for the quick one).
+    var PRESETS = [
+        { id: 'dalton', nombre: 'Quick color blindness', v: { dalton_k: '100', sat: '110' } },
+        { id: 'contraste', nombre: 'High contrast', v: { con: '120', sat: '125', sharp: 'medium' } },
+        { id: 'cine', nombre: 'Cinematic', v: { con: '110', vig: 'medium' } }
+    ];
     function opt(k) { return '<div class="option" data-bind="template: { name: \'setting-template\', data: $root.settingsItemMap()[\'' + G + '.' + k + '\'] }"></div>'; }
     function grupo(titulo, claves, extra) {
         return '<div class="form-group"><div class="sub-group-title" data-bind="text: loc(\'!LOC:' + titulo + '\')"></div><div class="sub-group top">' + claves.map(opt).join('') + (extra || '') + '</div></div>';
@@ -35,6 +41,9 @@
         txt('Changes apply after restarting Planetary Annihilation. The user interface is not filtered.') +
         '<div class="option vf-hdr" style="padding:6px 0;color:#ffc84a;display:none" data-bind="text: loc(\'!LOC:Filters need HDR on (GRAPHICS tab). With HDR off the game skips this image pass.\')"></div>' +
         '<div class="option vf-pendiente" style="padding:6px 0;color:#ffc84a;display:none" data-bind="text: loc(\'!LOC:Restart the game to apply the saved filters.\')"></div>' +
+        grupo('PRESETS', [], '<div class="option" style="display:flex;flex-wrap:nowrap">' + PRESETS.map(function (q) {
+            return '<button class="btn vf-preset" data-preset="' + q.id + '" style="margin:0 6px 4px 0;min-width:0;flex:1 1 0;white-space:normal" data-bind="text: loc(\'!LOC:' + q.nombre + '\')"></button>';
+        }).join('') + '</div>' + txt('A preset fills the options below; press Save and restart.')) +
         grupo('COLOR BLINDNESS', ['dalton', 'dalton_k']) +
         grupo('IMAGE', ['sat', 'con', 'bri', 'sharp', 'vig']) +
         grupo('RESET', [], '<div class="option"><button class="btn vf-reset" data-bind="text: loc(\'!LOC:Reset to defaults\')"></button></div>' +
@@ -53,14 +62,23 @@
     }
     function engancharse() {
         var map = window.model && model.settingsItemMap && model.settingsItemMap();
-        if (!map || !map[G + '.dalton'] || !$('.vf-reset').length) { return false; }
+        if (!map || !$('.vf-reset').length || !Object.keys(defs.settings).every(function (k) { return map[G + '.' + k]; })) { return false; }
         $('.vf-reset').off('click').on('click', function () {
             Object.keys(defs.settings).forEach(function (k) { map[G + '.' + k].value(defs.settings[k].default); });
+        });
+        $('.vf-preset').off('click').on('click', function () {
+            var q = PRESETS.filter(function (x) { return x.id === $(this).attr('data-preset'); }, this)[0];
+            if (!q) { return; }
+            var tipo = map[G + '.dalton'].value();
+            if (q.id === 'dalton' && tipo === 'off') { tipo = 'deutan'; }
+            Object.keys(defs.settings).forEach(function (k) {
+                map[G + '.' + k].value(q.v.hasOwnProperty(k) ? q.v[k] : (k === 'dalton' ? tipo : defs.settings[k].default));
+            });
         });
         if (map['graphics.hdr'] && map['graphics.hdr'].value.subscribe) { map['graphics.hdr'].value.subscribe(aviso); }
         aviso(); return true;
     }
-    var intentos = 0, timer = setInterval(function () { if (engancharse() || ++intentos > 100) { clearInterval(timer); } }, 300);
+    var intentos = 0, timer = setInterval(function () { if (engancharse()) { clearInterval(timer); } else if (++intentos > 100) { clearInterval(timer); console.warn('Visual Filters: settings not found; presets and reset inactive'); } }, 300);
     var s0 = api.settings.save;
     api.settings.save = function () { var r = s0.apply(this, arguments); try { aviso(); } catch (e) {} return r; };
 })();

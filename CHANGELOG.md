@@ -1,5 +1,8 @@
 # Changelog — Visual Filters (`com.pa.pabloandclaude.visualfilters`)
 
+## 1.1.0 (2026-10-08)
+- Presets in the VISUAL FILTERS tab: Quick color blindness, High contrast, Cinematic. A preset fills the options; press Save and restart.
+
 ## 1.0.0 (2026-10-06)
 - First version: color blindness correction (protanopia, deuteranopia, tritanopia, strength), saturation, contrast, brightness, sharpness and vignette in the VISUAL FILTERS settings tab.
 - Changes apply after restarting the game; filters need HDR on.

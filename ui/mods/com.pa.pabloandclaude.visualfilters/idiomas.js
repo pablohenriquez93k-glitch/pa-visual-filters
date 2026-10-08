@@ -25,7 +25,12 @@ var VisualFiltersIdiomas = (function () {
   "Changes apply after restarting Planetary Annihilation. The user interface is not filtered.": "Los cambios se aplican al reiniciar Planetary Annihilation. La interfaz no se filtra.",
   "Filters need HDR on (GRAPHICS tab). With HDR off the game skips this image pass.": "Los filtros requieren HDR activado (pestaña GRÁFICOS). Con HDR desactivado, el juego omite este paso de imagen.",
   "Restart the game to apply the saved filters.": "Reinicia el juego para aplicar los filtros guardados.",
-  "Translations are automatic and may contain errors.": "Las traducciones son automáticas y pueden contener errores."
+  "Translations are automatic and may contain errors.": "Las traducciones son automáticas y pueden contener errores.",
+  "PRESETS": "PREAJUSTES",
+  "Quick color blindness": "Daltonismo rápido",
+  "High contrast": "Alto contraste",
+  "Cinematic": "Cine",
+  "A preset fills the options below; press Save and restart.": "Un preajuste rellena las opciones de abajo; pulsa Guardar y reinicia."
  },
  "fr": {
   "VISUAL FILTERS": "FILTRES VISUELS",
@@ -50,7 +55,12 @@ var VisualFiltersIdiomas = (function () {
   "Changes apply after restarting Planetary Annihilation. The user interface is not filtered.": "Les changements s'appliquent après le redémarrage de Planetary Annihilation. L'interface n'est pas filtrée.",
   "Filters need HDR on (GRAPHICS tab). With HDR off the game skips this image pass.": "Les filtres nécessitent le HDR activé (onglet GRAPHISMES). Sans HDR, le jeu ignore cette passe d'image.",
   "Restart the game to apply the saved filters.": "Redémarrez le jeu pour appliquer les filtres enregistrés.",
-  "Translations are automatic and may contain errors.": "Les traductions sont automatiques et peuvent contenir des erreurs."
+  "Translations are automatic and may contain errors.": "Les traductions sont automatiques et peuvent contenir des erreurs.",
+  "PRESETS": "PRÉRÉGLAGES",
+  "Quick color blindness": "Daltonisme rapide",
+  "High contrast": "Contraste élevé",
+  "Cinematic": "Cinématique",
+  "A preset fills the options below; press Save and restart.": "Un préréglage remplit les options ci-dessous ; cliquez sur Enregistrer puis redémarrez."
  },
  "de": {
   "VISUAL FILTERS": "VISUELLE FILTER",
@@ -75,7 +85,12 @@ var VisualFiltersIdiomas = (function () {
   "Changes apply after restarting Planetary Annihilation. The user interface is not filtered.": "Änderungen werden nach einem Neustart von Planetary Annihilation wirksam. Die Benutzeroberfläche wird nicht gefiltert.",
   "Filters need HDR on (GRAPHICS tab). With HDR off the game skips this image pass.": "Die Filter benötigen aktiviertes HDR (Reiter GRAFIK). Ohne HDR überspringt das Spiel diesen Bilddurchgang.",
   "Restart the game to apply the saved filters.": "Starte das Spiel neu, um die gespeicherten Filter anzuwenden.",
-  "Translations are automatic and may contain errors.": "Die Übersetzungen sind automatisch und können Fehler enthalten."
+  "Translations are automatic and may contain errors.": "Die Übersetzungen sind automatisch und können Fehler enthalten.",
+  "PRESETS": "VOREINSTELLUNGEN",
+  "Quick color blindness": "Schnelle Farbenblindheit",
+  "High contrast": "Hoher Kontrast",
+  "Cinematic": "Filmisch",
+  "A preset fills the options below; press Save and restart.": "Eine Voreinstellung füllt die Optionen unten aus; Speichern und neu starten."
  },
  "it": {
   "VISUAL FILTERS": "FILTRI VISIVI",
@@ -100,7 +115,12 @@ var VisualFiltersIdiomas = (function () {
   "Changes apply after restarting Planetary Annihilation. The user interface is not filtered.": "Le modifiche si applicano dopo il riavvio di Planetary Annihilation. L'interfaccia non viene filtrata.",
   "Filters need HDR on (GRAPHICS tab). With HDR off the game skips this image pass.": "I filtri richiedono l'HDR attivo (scheda GRAFICA). Senza HDR il gioco salta questo passaggio dell'immagine.",
   "Restart the game to apply the saved filters.": "Riavvia il gioco per applicare i filtri salvati.",
-  "Translations are automatic and may contain errors.": "Le traduzioni sono automatiche e possono contenere errori."
+  "Translations are automatic and may contain errors.": "Le traduzioni sono automatiche e possono contenere errori.",
+  "PRESETS": "PRESET",
+  "Quick color blindness": "Daltonismo rapido",
+  "High contrast": "Alto contrasto",
+  "Cinematic": "Cinematografico",
+  "A preset fills the options below; press Save and restart.": "Un preset compila le opzioni qui sotto; premi Salva e riavvia."
  },
  "pt": {
   "VISUAL FILTERS": "FILTROS VISUAIS",
@@ -125,7 +145,12 @@ var VisualFiltersIdiomas = (function () {
   "Changes apply after restarting Planetary Annihilation. The user interface is not filtered.": "As alterações são aplicadas ao reiniciar o Planetary Annihilation. A interface não é filtrada.",
   "Filters need HDR on (GRAPHICS tab). With HDR off the game skips this image pass.": "Os filtros exigem HDR ligado (aba GRÁFICOS). Com HDR desligado, o jogo ignora esta etapa da imagem.",
   "Restart the game to apply the saved filters.": "Reinicie o jogo para aplicar os filtros salvos.",
-  "Translations are automatic and may contain errors.": "As traduções são automáticas e podem conter erros."
+  "Translations are automatic and may contain errors.": "As traduções são automáticas e podem conter erros.",
+  "PRESETS": "PREDEFINIÇÕES",
+  "Quick color blindness": "Daltonismo rápido",
+  "High contrast": "Alto contraste",
+  "Cinematic": "Cinematográfico",
+  "A preset fills the options below; press Save and restart.": "Uma predefinição preenche as opções abaixo; clique em Salvar e reinicie."
  },
  "ru": {
   "VISUAL FILTERS": "ВИЗУАЛЬНЫЕ ФИЛЬТРЫ",
@@ -150,7 +175,12 @@ var VisualFiltersIdiomas = (function () {
   "Changes apply after restarting Planetary Annihilation. The user interface is not filtered.": "Изменения вступают в силу после перезапуска Planetary Annihilation. Интерфейс не фильтруется.",
   "Filters need HDR on (GRAPHICS tab). With HDR off the game skips this image pass.": "Фильтрам нужен включённый HDR (вкладка ГРАФИКА). Без HDR игра пропускает этот проход изображения.",
   "Restart the game to apply the saved filters.": "Перезапустите игру, чтобы применить сохранённые фильтры.",
-  "Translations are automatic and may contain errors.": "Переводы автоматические и могут содержать ошибки."
+  "Translations are automatic and may contain errors.": "Переводы автоматические и могут содержать ошибки.",
+  "PRESETS": "ПРЕСЕТЫ",
+  "Quick color blindness": "Быстрая коррекция дальтонизма",
+  "High contrast": "Высокий контраст",
+  "Cinematic": "Кинематографичный",
+  "A preset fills the options below; press Save and restart.": "Пресет заполняет параметры ниже; нажмите «Сохранить» и перезапустите."
  },
  "uk": {
   "VISUAL FILTERS": "ВІЗУАЛЬНІ ФІЛЬТРИ",
@@ -175,7 +205,12 @@ var VisualFiltersIdiomas = (function () {
   "Changes apply after restarting Planetary Annihilation. The user interface is not filtered.": "Зміни застосовуються після перезапуску Planetary Annihilation. Інтерфейс не фільтрується.",
   "Filters need HDR on (GRAPHICS tab). With HDR off the game skips this image pass.": "Фільтрам потрібен увімкнений HDR (вкладка ГРАФІКА). Без HDR гра пропускає цей прохід зображення.",
   "Restart the game to apply the saved filters.": "Перезапустіть гру, щоб застосувати збережені фільтри.",
-  "Translations are automatic and may contain errors.": "Переклади автоматичні й можуть містити помилки."
+  "Translations are automatic and may contain errors.": "Переклади автоматичні й можуть містити помилки.",
+  "PRESETS": "ПРЕСЕТИ",
+  "Quick color blindness": "Швидка корекція дальтонізму",
+  "High contrast": "Висока контрастність",
+  "Cinematic": "Кінематографічний",
+  "A preset fills the options below; press Save and restart.": "Пресет заповнює параметри нижче; натисніть «Зберегти» і перезапустіть."
  },
  "pl": {
   "VISUAL FILTERS": "FILTRY OBRAZU",
@@ -200,7 +235,12 @@ var VisualFiltersIdiomas = (function () {
   "Changes apply after restarting Planetary Annihilation. The user interface is not filtered.": "Zmiany zostaną zastosowane po ponownym uruchomieniu Planetary Annihilation. Interfejs nie jest filtrowany.",
   "Filters need HDR on (GRAPHICS tab). With HDR off the game skips this image pass.": "Filtry wymagają włączonego HDR (karta GRAFIKA). Bez HDR gra pomija ten etap obrazu.",
   "Restart the game to apply the saved filters.": "Uruchom grę ponownie, aby zastosować zapisane filtry.",
-  "Translations are automatic and may contain errors.": "Tłumaczenia są automatyczne i mogą zawierać błędy."
+  "Translations are automatic and may contain errors.": "Tłumaczenia są automatyczne i mogą zawierać błędy.",
+  "PRESETS": "USTAWIENIA WSTĘPNE",
+  "Quick color blindness": "Szybki daltonizm",
+  "High contrast": "Wysoki kontrast",
+  "Cinematic": "Filmowy",
+  "A preset fills the options below; press Save and restart.": "Ustawienie wstępne wypełnia opcje poniżej; kliknij Zapisz i uruchom ponownie."
  },
  "cs": {
   "VISUAL FILTERS": "VIZUÁLNÍ FILTRY",
@@ -225,7 +265,12 @@ var VisualFiltersIdiomas = (function () {
   "Changes apply after restarting Planetary Annihilation. The user interface is not filtered.": "Změny se projeví po restartu Planetary Annihilation. Rozhraní se nefiltruje.",
   "Filters need HDR on (GRAPHICS tab). With HDR off the game skips this image pass.": "Filtry vyžadují zapnuté HDR (karta GRAFIKA). Bez HDR hra tento obrazový průchod přeskočí.",
   "Restart the game to apply the saved filters.": "Restartuj hru, aby se uložené filtry použily.",
-  "Translations are automatic and may contain errors.": "Překlady jsou automatické a mohou obsahovat chyby."
+  "Translations are automatic and may contain errors.": "Překlady jsou automatické a mohou obsahovat chyby.",
+  "PRESETS": "PŘEDVOLBY",
+  "Quick color blindness": "Rychlá barvoslepost",
+  "High contrast": "Vysoký kontrast",
+  "Cinematic": "Filmový",
+  "A preset fills the options below; press Save and restart.": "Předvolba vyplní volby níže; klikněte na Uložit a restartujte."
  },
  "da": {
   "VISUAL FILTERS": "VISUELLE FILTRE",
@@ -250,7 +295,12 @@ var VisualFiltersIdiomas = (function () {
   "Changes apply after restarting Planetary Annihilation. The user interface is not filtered.": "Ændringer træder i kraft, når Planetary Annihilation genstartes. Brugerfladen filtreres ikke.",
   "Filters need HDR on (GRAPHICS tab). With HDR off the game skips this image pass.": "Filtrene kræver HDR slået til (fanen GRAFIK). Uden HDR springer spillet dette billedtrin over.",
   "Restart the game to apply the saved filters.": "Genstart spillet for at anvende de gemte filtre.",
-  "Translations are automatic and may contain errors.": "Oversættelserne er automatiske og kan indeholde fejl."
+  "Translations are automatic and may contain errors.": "Oversættelserne er automatiske og kan indeholde fejl.",
+  "PRESETS": "FORUDINDSTILLINGER",
+  "Quick color blindness": "Hurtig farveblindhed",
+  "High contrast": "Høj kontrast",
+  "Cinematic": "Filmisk",
+  "A preset fills the options below; press Save and restart.": "En forudindstilling udfylder indstillingerne nedenfor; tryk Gem og genstart."
  },
  "fi": {
   "VISUAL FILTERS": "KUVASUODATTIMET",
@@ -275,7 +325,12 @@ var VisualFiltersIdiomas = (function () {
   "Changes apply after restarting Planetary Annihilation. The user interface is not filtered.": "Muutokset tulevat voimaan, kun Planetary Annihilation käynnistetään uudelleen. Käyttöliittymää ei suodateta.",
   "Filters need HDR on (GRAPHICS tab). With HDR off the game skips this image pass.": "Suodattimet vaativat HDR:n päälle (GRAFIIKKA-välilehti). Ilman HDR:ää peli ohittaa tämän kuvavaiheen.",
   "Restart the game to apply the saved filters.": "Käynnistä peli uudelleen ottaaksesi tallennetut suodattimet käyttöön.",
-  "Translations are automatic and may contain errors.": "Käännökset ovat automaattisia ja voivat sisältää virheitä."
+  "Translations are automatic and may contain errors.": "Käännökset ovat automaattisia ja voivat sisältää virheitä.",
+  "PRESETS": "ESIASETUKSET",
+  "Quick color blindness": "Nopea värisokeus",
+  "High contrast": "Korkea kontrasti",
+  "Cinematic": "Elokuvamainen",
+  "A preset fills the options below; press Save and restart.": "Esiasetus täyttää alla olevat asetukset; paina Tallenna ja käynnistä uudelleen."
  },
  "hu": {
   "VISUAL FILTERS": "VIZUÁLIS SZŰRŐK",
@@ -300,7 +355,12 @@ var VisualFiltersIdiomas = (function () {
   "Changes apply after restarting Planetary Annihilation. The user interface is not filtered.": "A változások a Planetary Annihilation újraindítása után lépnek életbe. A felhasználói felület nincs szűrve.",
   "Filters need HDR on (GRAPHICS tab). With HDR off the game skips this image pass.": "A szűrőkhöz be kell kapcsolni a HDR-t (GRAFIKA fül). HDR nélkül a játék kihagyja ezt a képfeldolgozási lépést.",
   "Restart the game to apply the saved filters.": "Indítsd újra a játékot a mentett szűrők alkalmazásához.",
-  "Translations are automatic and may contain errors.": "A fordítások automatikusak, és hibákat tartalmazhatnak."
+  "Translations are automatic and may contain errors.": "A fordítások automatikusak, és hibákat tartalmazhatnak.",
+  "PRESETS": "ELŐBEÁLLÍTÁSOK",
+  "Quick color blindness": "Gyors színvakság",
+  "High contrast": "Magas kontraszt",
+  "Cinematic": "Filmes",
+  "A preset fills the options below; press Save and restart.": "Az előbeállítás kitölti a lenti opciókat; nyomd meg a Mentést, majd indítsd újra."
  },
  "nl": {
   "VISUAL FILTERS": "VISUELE FILTERS",
@@ -325,7 +385,12 @@ var VisualFiltersIdiomas = (function () {
   "Changes apply after restarting Planetary Annihilation. The user interface is not filtered.": "Wijzigingen worden toegepast na het herstarten van Planetary Annihilation. De interface wordt niet gefilterd.",
   "Filters need HDR on (GRAPHICS tab). With HDR off the game skips this image pass.": "De filters vereisen dat HDR aan staat (tabblad GRAPHICS). Zonder HDR slaat het spel deze beeldstap over.",
   "Restart the game to apply the saved filters.": "Herstart het spel om de opgeslagen filters toe te passen.",
-  "Translations are automatic and may contain errors.": "Vertalingen zijn automatisch en kunnen fouten bevatten."
+  "Translations are automatic and may contain errors.": "Vertalingen zijn automatisch en kunnen fouten bevatten.",
+  "PRESETS": "PRESETS",
+  "Quick color blindness": "Snelle kleurenblindheid",
+  "High contrast": "Hoog contrast",
+  "Cinematic": "Filmisch",
+  "A preset fills the options below; press Save and restart.": "Een preset vult de opties hieronder in; klik op Opslaan en herstart."
  },
  "no": {
   "VISUAL FILTERS": "VISUELLE FILTRE",
@@ -350,7 +415,12 @@ var VisualFiltersIdiomas = (function () {
   "Changes apply after restarting Planetary Annihilation. The user interface is not filtered.": "Endringer trer i kraft når Planetary Annihilation startes på nytt. Brukergrensesnittet filtreres ikke.",
   "Filters need HDR on (GRAPHICS tab). With HDR off the game skips this image pass.": "Filtrene krever at HDR er på (fanen GRAFIKK). Uten HDR hopper spillet over dette bildetrinnet.",
   "Restart the game to apply the saved filters.": "Start spillet på nytt for å bruke de lagrede filtrene.",
-  "Translations are automatic and may contain errors.": "Oversettelsene er automatiske og kan inneholde feil."
+  "Translations are automatic and may contain errors.": "Oversettelsene er automatiske og kan inneholde feil.",
+  "PRESETS": "FORHÅNDSINNSTILLINGER",
+  "Quick color blindness": "Rask fargeblindhet",
+  "High contrast": "Høy kontrast",
+  "Cinematic": "Filmatisk",
+  "A preset fills the options below; press Save and restart.": "En forhåndsinnstilling fyller ut valgene nedenfor; trykk Lagre og start på nytt."
  },
  "ro": {
   "VISUAL FILTERS": "FILTRE VIZUALE",
@@ -375,7 +445,12 @@ var VisualFiltersIdiomas = (function () {
   "Changes apply after restarting Planetary Annihilation. The user interface is not filtered.": "Modificările se aplică după repornirea Planetary Annihilation. Interfața nu este filtrată.",
   "Filters need HDR on (GRAPHICS tab). With HDR off the game skips this image pass.": "Filtrele necesită HDR activat (fila GRAFICĂ). Fără HDR, jocul omite această etapă a imaginii.",
   "Restart the game to apply the saved filters.": "Repornește jocul pentru a aplica filtrele salvate.",
-  "Translations are automatic and may contain errors.": "Traducerile sunt automate și pot conține erori."
+  "Translations are automatic and may contain errors.": "Traducerile sunt automate și pot conține erori.",
+  "PRESETS": "PRESETĂRI",
+  "Quick color blindness": "Daltonism rapid",
+  "High contrast": "Contrast ridicat",
+  "Cinematic": "Cinematic",
+  "A preset fills the options below; press Save and restart.": "O presetare completează opțiunile de mai jos; apasă Salvează și repornește."
  },
  "sv": {
   "VISUAL FILTERS": "VISUELLA FILTER",
@@ -400,7 +475,12 @@ var VisualFiltersIdiomas = (function () {
   "Changes apply after restarting Planetary Annihilation. The user interface is not filtered.": "Ändringar gäller efter omstart av Planetary Annihilation. Gränssnittet filtreras inte.",
   "Filters need HDR on (GRAPHICS tab). With HDR off the game skips this image pass.": "Filtren kräver att HDR är på (fliken GRAFIK). Utan HDR hoppar spelet över detta bildsteg.",
   "Restart the game to apply the saved filters.": "Starta om spelet för att använda de sparade filtren.",
-  "Translations are automatic and may contain errors.": "Översättningarna är automatiska och kan innehålla fel."
+  "Translations are automatic and may contain errors.": "Översättningarna är automatiska och kan innehålla fel.",
+  "PRESETS": "FÖRINSTÄLLNINGAR",
+  "Quick color blindness": "Snabb färgblindhet",
+  "High contrast": "Hög kontrast",
+  "Cinematic": "Filmisk",
+  "A preset fills the options below; press Save and restart.": "En förinställning fyller i alternativen nedan; tryck Spara och starta om."
  },
  "tr": {
   "VISUAL FILTERS": "GÖRSEL FİLTRELER",
@@ -425,7 +505,12 @@ var VisualFiltersIdiomas = (function () {
   "Changes apply after restarting Planetary Annihilation. The user interface is not filtered.": "Değişiklikler Planetary Annihilation yeniden başlatıldıktan sonra uygulanır. Arayüz filtrelenmez.",
   "Filters need HDR on (GRAPHICS tab). With HDR off the game skips this image pass.": "Filtreler için HDR açık olmalıdır (GRAFİK sekmesi). HDR kapalıyken oyun bu görüntü adımını atlar.",
   "Restart the game to apply the saved filters.": "Kaydedilen filtreleri uygulamak için oyunu yeniden başlat.",
-  "Translations are automatic and may contain errors.": "Çeviriler otomatiktir ve hata içerebilir."
+  "Translations are automatic and may contain errors.": "Çeviriler otomatiktir ve hata içerebilir.",
+  "PRESETS": "ÖN AYARLAR",
+  "Quick color blindness": "Hızlı renk körlüğü",
+  "High contrast": "Yüksek kontrast",
+  "Cinematic": "Sinematik",
+  "A preset fills the options below; press Save and restart.": "Ön ayar aşağıdaki seçenekleri doldurur; Kaydet’e basıp yeniden başlatın."
  },
  "ja": {
   "VISUAL FILTERS": "ビジュアルフィルター",
@@ -450,7 +535,12 @@ var VisualFiltersIdiomas = (function () {
   "Changes apply after restarting Planetary Annihilation. The user interface is not filtered.": "変更は Planetary Annihilation の再起動後に反映されます。UI はフィルターされません。",
   "Filters need HDR on (GRAPHICS tab). With HDR off the game skips this image pass.": "フィルターには HDR オンが必要です（グラフィックタブ）。HDR オフではこの画像処理がスキップされます。",
   "Restart the game to apply the saved filters.": "保存したフィルターを適用するにはゲームを再起動してください。",
-  "Translations are automatic and may contain errors.": "翻訳は自動のため、誤りを含む場合があります。"
+  "Translations are automatic and may contain errors.": "翻訳は自動のため、誤りを含む場合があります。",
+  "PRESETS": "プリセット",
+  "Quick color blindness": "クイック色覚補正",
+  "High contrast": "ハイコントラスト",
+  "Cinematic": "シネマティック",
+  "A preset fills the options below; press Save and restart.": "プリセットは下の項目を設定します。保存して再起動してください。"
  },
  "ko": {
   "VISUAL FILTERS": "시각 필터",
@@ -475,7 +565,12 @@ var VisualFiltersIdiomas = (function () {
   "Changes apply after restarting Planetary Annihilation. The user interface is not filtered.": "변경 사항은 Planetary Annihilation을 다시 시작한 후 적용됩니다. 인터페이스에는 필터가 적용되지 않습니다.",
   "Filters need HDR on (GRAPHICS tab). With HDR off the game skips this image pass.": "필터를 사용하려면 HDR을 켜야 합니다(그래픽 탭). HDR이 꺼져 있으면 게임이 이 이미지 단계를 건너뜁니다.",
   "Restart the game to apply the saved filters.": "저장한 필터를 적용하려면 게임을 다시 시작하세요.",
-  "Translations are automatic and may contain errors.": "번역은 자동이며 오류가 있을 수 있습니다."
+  "Translations are automatic and may contain errors.": "번역은 자동이며 오류가 있을 수 있습니다.",
+  "PRESETS": "프리셋",
+  "Quick color blindness": "빠른 색각 보정",
+  "High contrast": "고대비",
+  "Cinematic": "시네마틱",
+  "A preset fills the options below; press Save and restart.": "프리셋은 아래 옵션을 채웁니다. 저장 후 다시 시작하세요."
  },
  "ar": {
   "VISUAL FILTERS": "مرشحات بصرية",
@@ -500,7 +595,12 @@ var VisualFiltersIdiomas = (function () {
   "Changes apply after restarting Planetary Annihilation. The user interface is not filtered.": "تُطبق التغييرات بعد إعادة تشغيل Planetary Annihilation. لا تُرشَّح الواجهة.",
   "Filters need HDR on (GRAPHICS tab). With HDR off the game skips this image pass.": "تحتاج المرشحات إلى تشغيل HDR (تبويب الرسوميات). عند إيقاف HDR تتخطى اللعبة مرحلة الصورة هذه.",
   "Restart the game to apply the saved filters.": "أعد تشغيل اللعبة لتطبيق المرشحات المحفوظة.",
-  "Translations are automatic and may contain errors.": "الترجمات آلية وقد تحتوي على أخطاء."
+  "Translations are automatic and may contain errors.": "الترجمات آلية وقد تحتوي على أخطاء.",
+  "PRESETS": "إعدادات مسبقة",
+  "Quick color blindness": "عمى الألوان السريع",
+  "High contrast": "تباين عالٍ",
+  "Cinematic": "سينمائي",
+  "A preset fills the options below; press Save and restart.": "يملأ الإعداد المسبق الخيارات أدناه؛ اضغط حفظ ثم أعد التشغيل."
  },
  "zh-CN": {
   "VISUAL FILTERS": "视觉滤镜",
@@ -525,7 +625,12 @@ var VisualFiltersIdiomas = (function () {
   "Changes apply after restarting Planetary Annihilation. The user interface is not filtered.": "更改将在重新启动 Planetary Annihilation 后生效。界面不会被滤镜处理。",
   "Filters need HDR on (GRAPHICS tab). With HDR off the game skips this image pass.": "滤镜需要开启 HDR（图形选项卡）。关闭 HDR 时游戏会跳过此画面处理步骤。",
   "Restart the game to apply the saved filters.": "重新启动游戏以应用已保存的滤镜。",
-  "Translations are automatic and may contain errors.": "翻译为自动生成，可能包含错误。"
+  "Translations are automatic and may contain errors.": "翻译为自动生成，可能包含错误。",
+  "PRESETS": "预设",
+  "Quick color blindness": "快速色盲校正",
+  "High contrast": "高对比度",
+  "Cinematic": "电影感",
+  "A preset fills the options below; press Save and restart.": "预设会填写下方选项；点击保存并重启。"
  },
  "zh-TW": {
   "VISUAL FILTERS": "視覺濾鏡",
@@ -550,7 +655,12 @@ var VisualFiltersIdiomas = (function () {
   "Changes apply after restarting Planetary Annihilation. The user interface is not filtered.": "變更會在重新啟動 Planetary Annihilation 後生效。介面不會套用濾鏡。",
   "Filters need HDR on (GRAPHICS tab). With HDR off the game skips this image pass.": "濾鏡需要開啟 HDR（圖形分頁）。關閉 HDR 時遊戲會略過此畫面處理步驟。",
   "Restart the game to apply the saved filters.": "重新啟動遊戲以套用已儲存的濾鏡。",
-  "Translations are automatic and may contain errors.": "翻譯為自動產生，可能包含錯誤。"
+  "Translations are automatic and may contain errors.": "翻譯為自動產生，可能包含錯誤。",
+  "PRESETS": "預設",
+  "Quick color blindness": "快速色盲校正",
+  "High contrast": "高對比度",
+  "Cinematic": "電影感",
+  "A preset fills the options below; press Save and restart.": "預設會填入下方選項；按儲存並重新啟動。"
  },
  "zh-HK": {
   "VISUAL FILTERS": "視覺濾鏡",
@@ -575,7 +685,12 @@ var VisualFiltersIdiomas = (function () {
   "Changes apply after restarting Planetary Annihilation. The user interface is not filtered.": "變更會在重新啟動 Planetary Annihilation 後生效。介面不會套用濾鏡。",
   "Filters need HDR on (GRAPHICS tab). With HDR off the game skips this image pass.": "濾鏡需要開啟 HDR（圖形分頁）。關閉 HDR 時遊戲會略過此畫面處理步驟。",
   "Restart the game to apply the saved filters.": "重新啟動遊戲以套用已儲存的濾鏡。",
-  "Translations are automatic and may contain errors.": "翻譯為自動產生，可能包含錯誤。"
+  "Translations are automatic and may contain errors.": "翻譯為自動產生，可能包含錯誤。",
+  "PRESETS": "預設",
+  "Quick color blindness": "快速色盲校正",
+  "High contrast": "高對比度",
+  "Cinematic": "電影感",
+  "A preset fills the options below; press Save and restart.": "預設會填入下方選項；按儲存並重新啟動。"
  }
 };
     var listo = false;
